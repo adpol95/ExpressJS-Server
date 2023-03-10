@@ -10,11 +10,11 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 dbConnect(); //Mongoose
-logger(app); // Morgan
+//logger(app); // Morgan
 parseResponse(app);
 //cors(app); // Не сакционированный переход
 routes(app);
-errorHandler(app);
+//errorHandler(app);
 
 app.listen(PORT, () => {
   console.log(`Examples for host ${PORT}`);
