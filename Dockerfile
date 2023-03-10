@@ -5,7 +5,7 @@ FROM node:18
 WORKDIR /app
 
 # Copy the application files into the working directory
-COPY /my_absolute_path ./app
+COPY ../.. /app
 
 EXPOSE 5000/tcp
 # Install the application dependencies
