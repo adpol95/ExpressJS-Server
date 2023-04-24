@@ -1,4 +1,4 @@
-# Boilerplate Express server for user accounting
+# Boilerplate Express server for user storage
 
 ## Install
 npm i or yarn
@@ -18,7 +18,6 @@ Connected to Mongo Atlas https://www.mongodb.com/cloud/atlas. Feel free to use c
 * CORS ./src/modules/core/cors.js
 * Logger (Morgan)./src/modules/core/logger.js
 * Parse response (body-parser) ./src/modules/core/parseResponse.js
-* Ignore favicon ./src/modules/core/ignoreFavicon.js
 
 ## Modules
 All modules should be placed in ./src/modules
@@ -26,8 +25,8 @@ All modules should be placed in ./src/modules
 ## Info
 Current common information like app name, version, current time, timezone.
 
-## User
-CRUD operations for user accounting
+## User storage
+CRUD operations for user storage accounting
 
 ## ESlint + Prettier
 It works together well.

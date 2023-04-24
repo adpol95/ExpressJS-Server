@@ -1,7 +1,14 @@
-const store = [];
-
 // Функция контроллер
 export default function info(req, res) {
-  store.push(req.body.name);
-  res.status(200).json(store); //Вместо send ставим json
+  const now = new Date();
+
+  const message = {
+    timestamp: now.getTime(),
+    localeString: now.toLocaleString(),
+    getTimezoneOffset: now.getTimezoneOffset(),
+    tz: process.env.TZ,
+    name: 'Todo server v0.1.0',
+  };
+
+  res.status(200).json(message);
 } //Роутниг
