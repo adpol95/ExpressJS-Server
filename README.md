@@ -1,4 +1,4 @@
-# Boilerplate Express server for user storage
+# Boilerplate Express server for the storage of users
 
 ## Install
 npm i or yarn
@@ -25,8 +25,8 @@ All modules should be placed in ./src/modules
 ## Info
 Current common information like app name, version, current time, timezone.
 
-## User storage
-CRUD operations for user storage accounting
+## The storage of users
+CRUD operations for The storage of users accounting
 
 ## ESlint + Prettier
 It works together well.
