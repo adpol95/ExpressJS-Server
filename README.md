@@ -3,10 +3,7 @@
 ## Install
 npm i or yarn
 
-## Start on dev mode
-npm run dev
-
-## Start on production mode
+## Start on production mode and dev mode
 npm start
 
 ## Mongo connection
